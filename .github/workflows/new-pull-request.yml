@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Install yarn
+    - name: Get data
       run: |
         - echo $GITHUB_EVENT_PATH
         - cat $GITHUB_EVENT_PATH
